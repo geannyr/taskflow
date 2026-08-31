@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+<body>
+  <main class="aplicacao">
+    <section class="painel-tarefas" aria-labelledby="titulo-aplicacao">
+      <header class="cabecalho-aplicacao">
+        <div>
+          <p class="texto-destaque">Minhas tarefas</p>
+          <h1 id="titulo-aplicacao">TaskFlow</h1>
+        </div>
+        <span class="contador-tarefas" id="contador-tarefas">0 tarefas</span>
+      </header>
+
+      <form class="formulario-tarefa" id="formulario-tarefa">
+        <label for="titulo-tarefa">Nova tarefa</label>
+        <div class="linha-formulario">
+          <input
+            type="text"
+            id="titulo-tarefa"
+            name="titulo-tarefa"
+            placeholder="Ex.: estudar Git por 30 minutos"
+            autocomplete="off"
+          >
+          <button type="submit">Adicionar</button>
+        </div>
+      </form>
+
+      <ul class="lista-tarefas" id="lista-tarefas" aria-label="Lista de tarefas"></ul>
+    </section>
+  </main>
+
+  <script src="scripts/tarefas.js"></script>
+</body>
+</html>
