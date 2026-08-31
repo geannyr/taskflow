@@ -20,8 +20,6 @@ cd taskflow
 
 Abra o arquivo `index.html` diretamente no navegador.
 
-No Windows, macOS ou Linux, você também pode abrir a pasta do projeto no editor de código e usar a opção de abrir o arquivo no navegador.
-
 ## Estrutura do projeto
 
 ```text
