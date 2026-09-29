@@ -38,3 +38,6 @@ taskflow/
 - `scripts/tarefas.js`: lógica para criar, listar, editar, concluir e excluir tarefas.
 - `README.md`: instruções básicas do projeto.
 - `.gitignore`: arquivos e pastas que não devem ser versionados.
+
+## Estrutura do projeto
+Apenas para att git.
